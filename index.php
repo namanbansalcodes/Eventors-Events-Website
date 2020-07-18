@@ -54,7 +54,7 @@
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item"><a href="#our-story" class="nav-link">Story</a></li>
                     <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
-                    <li class="nav-item"><a href="#contact-us" class="nav-link">Contact Us</a></li>
+                    <li class="nav-item"><a href="#contact-us" class="nav-link">Contact</a></li>
                 </ul>
             </div>
         </nav>
