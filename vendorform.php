@@ -7,7 +7,7 @@ if (isset($_POST["btn-send"]))
 {
     echo "Hello";
 
-    $mailTo = "webmanager@eventorsevents.com";
+    $mailTo = "namanb009@gmail.com ";
     $subject="blah";
     $text="This nigga be looking for you";
 
