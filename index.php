@@ -30,11 +30,7 @@
                                     <form action="vendorform.php" method="post">
                                         Vendor Name: <input type="text" name="vname">
 
-                                        <br>
-                                        <input class="btn btn-primary" type="submit" value="submit">
-                                        <br>
-                                        <input class="btn btn-primary" data-dismiss="modal" value="Close">
-
+                                        <button class="btn btn-success" name="btn-send">Submit</button>
                                     </form>
                                 </div>
                             </div>
