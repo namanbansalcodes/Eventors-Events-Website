@@ -2,6 +2,8 @@
 
 if (isset($_POST["btn-send"]))
 {
+    echo "Hello";
+    
     $mailTo="webmanager@eventorsevents.com";
     $subject="blah";
     $headers="From: " .$name;

@@ -42,7 +42,7 @@
 
 
         <nav class="navbar navbar-expand-md">
-            <a class="navbar-brand"><img class="img-fluid logo" src="images/justlogo.png"></a>
+            <a class="navbar-brand"><img class="img-fluid logo" src="images/justlogoyellower.png"></a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navmenucontainer">
                 <span class="navbar-toggler-icon"></span>
             </button>
