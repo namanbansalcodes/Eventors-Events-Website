@@ -2,16 +2,15 @@
 <html lang="en">
 
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport"
-            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+            integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
         <title>The Eventors</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
         <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
     <body class="main-body centered">
@@ -146,7 +145,7 @@
                 <div class="col-md-6 justify-self-center align-self-center"><img class="img-fluid"
                         src="images/baloons.jpg">
                 </div>
-                <div class="col-md-6 justify-self-center align-self-center">
+                <div id="services" class="col-md-6 justify-self-center align-self-center">
                     <h1>OUR SERVICES </h1><br>
                     <p>We have interned with some big event companies and know how these companies use the same themes
                         and ideas for every event, be it a wedding or a birthday party.
@@ -242,7 +241,7 @@
                 <div class="col-md-5 contact-us">
                     <h2>WORK WITH US</h2>
 
-                    <a href="#" data-toggle="modal" data-target="#VendorModal">For Vendors</a> <br>
+                    <a href="vendorform.php">For Vendors</a> <br>
                     <a href="">For Interships</a> <br>
                     <a href="">For Designers</a> <br>
                     <a href="">For Business Partners</a>
@@ -260,6 +259,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
             integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
         </script>
+
     </body>
 
 </html>
