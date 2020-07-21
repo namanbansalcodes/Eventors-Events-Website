@@ -16,31 +16,6 @@
 
     <body class="main-body centered">
 
-        <div class="container-fluid">
-            <div class="row my-container-yellow">
-                <div class="col-sm-12">
-                    <div class="modal fade" id="VendorModal">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h1>Vendor Verification Form</h1>
-                                </div>
-
-                                <div class="modal-body">
-                                    <form action="vendorform.php" method="post">
-                                        Vendor Name: <input type="text" name="vname">
-
-                                        <button class="btn btn-success" name="btn-send">Submit</button>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
         <nav class="navbar navbar-expand-md">
             <a class="navbar-brand"><img class="img-fluid logo" src="images/justlogoyellower.png"></a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navmenucontainer">
