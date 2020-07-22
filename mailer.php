@@ -1,6 +1,6 @@
 <?php
         $to_email_address="namanb009@gmail.com";
-        $subject = $_POST["vname"];
+        $subject = $_POST[".vname"];
         $message="More Text";
 
         mail($to_email_address,$subject,$message);
