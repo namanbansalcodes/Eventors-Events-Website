@@ -1,22 +1,3 @@
-<?php
-error_reporting(-1);
-ini_set('display_errors', 'On');
-set_error_handler("var_dump");
-
-if (isset($_POST["btn-send"]))
-{
-
-    $mailTo = "namanb009@gmail.com ";
-    $subject="blah";
-    $text="This nigga be looking for you";
-
-    mail($mailTo,$subject,$text);
-    header("Location = index.php");
-}
-
-?>
-
-
 <!doctype html>
 <html lang="en">
 
@@ -30,6 +11,12 @@ if (isset($_POST["btn-send"]))
         <title>Eventors - Vendor Form</title>
 
         <link rel="stylesheet" href="styles.css">
+
+        <script src="https://code.jquery.com/jquery-3.5.1.js"
+            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+
+
     </head>
 
     <body class="main-body centered">
@@ -42,25 +29,33 @@ if (isset($_POST["btn-send"]))
             <div id="navmenucontainer" class="collapse navbar-collapse">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="index.php" class="nav-link">Services</a></li>2
+                    <li class="nav-item"><a href="index.php" class="nav-link">Services</a></li>
                     <li class="nav-item"><a href="index.php" class="nav-link">Contact</a></li>
                 </ul>
             </div>
         </nav>
 
+        <!--Form Starts Here-->
         <div class="container-fluid my-container-yellow">
             <div class="row justify-content-center align-content-center">
                 <div class="col-sm-12">
-                    <form>
-                       Name: <input type="text" id="name">
-                       <br>
-                       <input type="submit" value="submit">
+                    <form id="vform">
+                        Name: <input type="text" name="vname" id="vname">
+                        <br>
+
+                        Email: <input type="text" name="vemail" id="vemail">
+                        <br>
+
+                        <button id="send-btn" type="submit" name="submit" onclick="SubForm()">Submit</button>
                     </form>
+
+                    <br><br>
+                    <p id="form-message"></p>
                 </div>
-
             </div>
-
         </div>
+
+
 
 
 
@@ -90,7 +85,6 @@ if (isset($_POST["btn-send"]))
             </div>
         </div>
 
-
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
             integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
         </script>
@@ -100,6 +94,19 @@ if (isset($_POST["btn-send"]))
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
             integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
         </script>
-    </body>
 
-</html>
+
+        <script>
+            function SubForm() {
+                $.ajax({
+                    url: 'mailer.php',
+                    type: 'post',
+                    data: $('.vendor-form').serialize(),
+                    success: function () {
+                        document.getElementById("form-message").innerHTML = "New text!";
+                    }
+                });
+            }
+
+        </script>
+    </body>
