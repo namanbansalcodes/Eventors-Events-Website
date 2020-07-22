@@ -11,12 +11,6 @@
         <title>Eventors - Vendor Form</title>
 
         <link rel="stylesheet" href="styles.css">
-
-        <script src="https://code.jquery.com/jquery-3.5.1.js"
-            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-
-
-
     </head>
 
     <body class="main-body centered">
@@ -39,25 +33,18 @@
         <div class="container-fluid my-container-yellow">
             <div class="row justify-content-center align-content-center">
                 <div class="col-sm-12">
-                    <form id="vform">
+                    <form action="mailer.php" id="vform">
                         Name: <input type="text" name="vname" id="vname">
                         <br>
 
                         Email: <input type="text" name="vemail" id="vemail">
                         <br>
 
-                        <button id="send-btn" type="submit" name="submit" onclick="SubForm()">Submit</button>
+                        <button id="send-btn" type="submit" name="submit">Submit</button>
                     </form>
-
-                    <br><br>
-                    <p id="form-message"></p>
                 </div>
             </div>
         </div>
-
-
-
-
 
 
         <div class="container-fluid my-container-dark" id="contact-us">
@@ -77,7 +64,7 @@
                 <div class="col-md-5 contact-us">
                     <h2>WORK WITH US</h2>
 
-                    <a href="#" data-toggle="modal" data-target="#VendorModal">For Vendors</a> <br>
+                    <a href="vendorform.php">For Vendors</a> <br>
                     <a href="">For Interships</a> <br>
                     <a href="">For Designers</a> <br>
                     <a href="">For Business Partners</a>
@@ -95,18 +82,4 @@
             integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
         </script>
 
-
-        <script>
-            function SubForm() {
-                $.ajax({
-                    url: 'mailer.php',
-                    type: 'post',
-                    data: $('.vendor-form').serialize(),
-                    success: function () {
-                        document.getElementById(".form-message").innerHTML = "New text!";
-                    }
-                });
-            }
-
-        </script>
     </body>
