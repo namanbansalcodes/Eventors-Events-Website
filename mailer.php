@@ -1,3 +1,12 @@
+<?php
+        $to_email_address="namanb009@gmail.com";
+        $subject = "Text";
+        $message="More Text";
+
+        mail($to_email_address,$subject,$message);
+?>
+
+
 <!doctype html>
 <html lang="en">
 
@@ -14,7 +23,6 @@
     </head>
 
     <body class="main-body centered">
-
         <nav class="navbar navbar-expand-md">
             <a class="navbar-brand"><img class="img-fluid logo" src="images/justlogoyellower.png"></a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navmenucontainer">
@@ -36,11 +44,6 @@
                 </div>
             </div>
         </div>
-
-    
-
-
-
 
         <div class="container-fluid my-container-dark" id="contact-us">
             <div class="row align-content-center justify-content-center"
@@ -80,9 +83,3 @@
     </body>
 
 </html>
-
-<?php
-
-mail("namanb009@gmail.com", "text" ,"again more text")
-
-?>
