@@ -103,7 +103,7 @@
                     type: 'post',
                     data: $('.vendor-form').serialize(),
                     success: function () {
-                        document.getElementById("form-message").innerHTML = "New text!";
+                        document.getElementById(".form-message").innerHTML = "New text!";
                     }
                 });
             }
