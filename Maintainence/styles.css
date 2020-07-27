@@ -1,0 +1,112 @@
+:root {
+    --root-black: #0d0a02;
+    --root-yellow-lite: #ecc047;
+    --logo-color: #c59d5f;
+    --root-yellow: #ffdc73;
+}
+
+.main-body {
+    background-color: var(--root-black);
+    align-items: center;
+    align-content: center;
+}
+
+.logo {
+    width: 100%;
+    max-width: 10vw;
+}
+
+.nav-link {
+    color: var(--root-yellow);
+    font-size: x-large;
+}
+
+.my-container-yellow {
+    background-image: linear-gradient(to top, var(--root-yellow-lite), var(--root-yellow));
+}
+
+.my-container-dark {
+    background-color: var(--root-black);
+}
+
+.my-col-dark {
+    background-color: red;
+}
+
+.homebox {
+    background-color: var(--root-yellow-lite);
+    left: -50px;
+    z-index: 1;
+}
+
+.homebox h1 {
+    color: var(--root-black);
+    opacity: 1.0;
+}
+
+.seperator {
+    background-color: var(--root-black);
+    color: var(--root-yellow);
+}
+
+.services {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.services h2 {
+    position: relative;
+    right: -1vw;
+}
+
+.services ul {
+    list-style-type: none;
+}
+
+.services ul li {
+    text-align: center;
+    padding: 0.5vw;
+}
+
+.services-table-yellow {
+    background-color: linear-gradient(to top, var(--root-yellow-lite), var(--root-yellow));
+}
+
+.services-table-dark {
+    background-color: var(--root-black);
+    color: var(--root-yellow);
+}
+
+.media-icons {
+    color: var(--logo-color);
+    padding-top: 20px;
+    transform: scale(1.7, 1.7);
+}
+
+.contact-us h2 {
+    color: var(--root-yellow);
+}
+
+.contact-us h5 {
+    color: var(--root-yellow);
+}
+
+.contact-us p {
+    color: var(--root-yellow);
+}
+
+.contact-us a {
+    color: var(--root-yellow);
+}
+
+@media (max-width:768px) {
+    .homebox {
+        left: 0;
+    }
+}
+
+@media(max-width:576px) {
+    .homebox {
+        left: 0;
+    }
+}
