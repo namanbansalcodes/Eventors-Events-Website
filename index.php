@@ -10,6 +10,10 @@
 
         <title>The Eventors</title>
 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="main.js"></script>
+
+
         <link rel="stylesheet" href="styles.css">
     </head>
 
@@ -29,8 +33,8 @@
             </div>
         </nav>
 
-        <div class="container-fluid my-container-yellow">
-            <div class="row justify-content-center">
+
+            <div class="row justify-content-center my-container-yellow">
                 <div class="col-md-6 col-lg-8 justify-self-center"><img class="img-fluid" src="images/home_back.jpg">
                 </div>
                 <div class="col-md-6 col-lg-4 justify-self-center align-self-center homebox">
@@ -39,21 +43,21 @@
                         importance of an event in our clients life and we strive to satisfy our clients </p>
                 </div>
             </div>
-        </div>
+
 
         <!--Seperator between divs-->
-        <div class="container-fluid">
+
             <div class="row justify-content-center">
                 <div class="col-sm-12 text-center seperator">
                     <h1>#EventsWithLove</h1>
                 </div>
             </div>
-        </div>
+
 
         <!--Second Box-->
-        <div class="container-fluid my-container-yellow" id="our-story">
-            <div class="row justify-content-center">
-                <div class="col-md-6 justify-self-center align-self-center">
+
+            <div class="row justify-content-center my-container-yellow" id="our-story">
+                <div class="col-md-6 justify-self-center align-self-center p-5">
                     <h1>Our Story</h1><br>
                     <p>Eventors Events and Production was started in a rented flat by a couple of teenagers in Pune.
                         Yash and Harsh wanted to do something in their life that made sense. After completing a few
@@ -71,24 +75,23 @@
 
 
             </div>
-        </div>
+
 
         <!--Seperator between divs-->
-        <div class="container-fluid">
+
             <div class="row justify-content-center">
                 <div class="col-sm-12 text-center seperator">
                     <h1>#EventsWithCare</h1>
                 </div>
             </div>
-        </div>
+
 
         <!--Third Box-->
-        <div class="container-fluid my-container-yellow">
-            <div class="row justify-content-center">
+            <div class="row justify-content-center my-container-yellow">
                 <div class="col-md-6 justify-self-center align-self-center"><img class="img-fluid"
                         src="images/celebration-chairs-party-table-setting-50675.jpg">
                 </div>
-                <div class="col-md-6 justify-self-center align-self-center">
+                <div class="col-md-6 justify-self-center align-self-center p-5">
                     <h1>Why we do Events?</h1><br>
                     <p>Events are not just a task for us. We understand how important a corporate event must be for
                         someone, or how important a birthday party or an engagement is for someone. We understand the
@@ -100,21 +103,20 @@
                     </p>
                 </div>
             </div>
-        </div>
+
 
         <!--Seperator between divs-->
-        <div class="container-fluid">
+
             <div class="row justify-content-center">
                 <div class="col-sm-12 text-center seperator">
                     <h1>#EventsWithPassion</h1>
                 </div>
             </div>
-        </div>
+
 
         <!--Fourth-->
-        <div class="container-fluid my-container-yellow">
-            <div class="row justify-content-center">
-                <div class="col-md-6 justify-self-center align-self-center">
+            <div class="row justify-content-center my-container-yellow">
+                <div class="col-md-6 justify-self-center align-self-center p-5">
                     <h1>How are we unique? </h1><br>
                     <p>We have interned with some big event companies and know how these companies use the same themes
                         and ideas for every event, be it a wedding or a birthday party.
@@ -130,22 +132,22 @@
                         src="images/beach-beach-wedding-chairs-clouds-169192.jpg">
                 </div>
             </div>
-        </div>
 
-        <div class="container-fluid">
+
+
             <div class="row justify-content-center">
                 <div class="col-sm-12 seperator text-center">
                     <h1>#EventsWithJoy</h1>
                 </div>
             </div>
-        </div>
 
-        <div class="container-fluid my-container-yellow">
-            <div class="row justify-content-center">
+
+
+            <div class="row justify-content-center my-container-yellow">
                 <div class="col-md-6 justify-self-center align-self-center"><img class="img-fluid"
                         src="images/baloons.jpg">
                 </div>
-                <div id="services" class="col-md-6 justify-self-center align-self-center">
+                <div id="services" class="col-md-6 justify-self-center align-self-center p-5">
                     <h1>OUR SERVICES </h1><br>
                     <p>We have interned with some big event companies and know how these companies use the same themes
                         and ideas for every event, be it a wedding or a birthday party.
@@ -158,19 +160,17 @@
                     </p>
                 </div>
             </div>
-        </div>
 
-        <div class="container-fluid">
-            <div class="row justify-content-center">
+
+        <div class="row justify-content-center">
                 <div class="col-sm-12 seperator text-center">
                     <h1>#EventsWithEmotion</h1>
                 </div>
             </div>
-        </div>
+
 
         <!--Services Table-->
-        <div class="container-fluid justify-self-center align-self-center my-container-yellow">
-            <div class="row justify-content-center text-center align-content-center">
+            <div class="row justify-content-center text-center align-content-center my-container-yellow">
                 <div class=" col-sm-3 services">
                     <h2>Wedding Planning</h2>
                     <br>
@@ -220,13 +220,13 @@
                     </ul>
                 </div>
             </div>
-        </div>
+
         <!--Services Table Ends here-->
 
 
-        <div class="container-fluid my-container-dark" id="contact-us">
-            <div class="row align-content-center justify-content-center"
-                style="padding-top: 10vh; padding-bottom: 10vh;">
+
+            <div class="row align-content-center justify-content-center my-container-dark"
+                style="padding-top: 10vh; padding-bottom: 10vh;" id="contact-us">
                 <div class="col-md-5 contact-us">
                     <h2>CONNECT WITH US</h2>
                     <h5 style="display: inline;">Email: </h5>
@@ -247,8 +247,6 @@
                     <a href="">For Business Partners</a>
                 </div>
             </div>
-        </div>
-
 
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
             integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">

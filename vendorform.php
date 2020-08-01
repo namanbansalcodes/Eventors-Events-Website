@@ -10,6 +10,9 @@
 
         <title>Eventors - Vendor Form</title>
 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="main.js"></script>
+
         <link rel="stylesheet" href="styles.css">
     </head>
 
@@ -32,13 +35,13 @@
         <!--Form Starts Here-->
         <div class="container-fluid my-container-yellow">
             <div class="row justify-content-center align-content-center">
-                <div class="col-sm-12">
-                    <form action="mailer.php" id="vform">
-                        Name: <input type="text" name="vname" id="vname">
-                        <br>
+                <div class="col-sm-12 p-5">
+                    <form action="vendorform.php" method="post" id="vform">
+                        <p>Name: <input type="text" name="vname" id="vname">
+                            <br></p>
 
-                        Email: <input type="text" name="vemail" id="vemail">
-                        <br>
+                        <p>Email: <input type="text" name="vemail" id="vemail">
+                            <br></p>
 
                         <button id="send-btn" type="submit" name="submit">Submit</button>
                     </form>
@@ -72,9 +75,7 @@
             </div>
         </div>
 
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-        </script>
+
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
             integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
         </script>

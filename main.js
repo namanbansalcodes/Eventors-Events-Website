@@ -1,13 +1,29 @@
-const selectElement = function (element) {
-    return document.querySelector(element);
-};
-const menuToggler = selectElement(".menu-toggle");
-const navItemToggler = selectElement(".item-toggle");
-const body = selectElement("body");
-menuToggler.addEventListener("click", function () {
-    body.classList.toggle("open");
-});
-navItemToggler.addEventListener("click", function () {
-    body.classList.toggle("open");
-});
+$(document).ready(function() {
+    $(document).dblclick(function() {
+        alert("Double Click Detected!");
+    });
 
+    $('#vform').submit(function() {
+        event.preventDefault();
+
+        var vname = $('#vname').val(); //fetching the data from form
+        var vemail = $('#vemail').val();
+
+        if (vname == '' || vemail == '') {
+            alert("Please fill all the Required Fields");
+        } else {
+            var form = $('#vform').serialize();
+            $.ajax({
+                type: 'post',
+                url: 'maileverything.php',
+                data: form,
+                success: function() {
+                    alert("Your response has been recorded.");
+                }
+            })
+
+        }
+
+    });
+
+});
