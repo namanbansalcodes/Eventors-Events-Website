@@ -3,9 +3,7 @@ $(document).ready(function() {
         alert("Double Click Detected!");
     });
 
-    $('#vform').submit(function() {
-        event.preventDefault();
-
+    $('#send-btn').click(function() {
         var vname = $('#vname').val(); //fetching the data from form
         var vemail = $('#vemail').val();
 
