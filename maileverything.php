@@ -1,5 +1,5 @@
 <?php
-echo $_POST['form'];
+echo $_POST['data'];
 echo 'nigga';
 
 //mail("namanb009@gmail.com",'this nigga lookin for u',$mailthis);
