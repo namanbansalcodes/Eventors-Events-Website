@@ -48,6 +48,7 @@
                 </div>
             </div>
         </div>
+        <!--Form ends here-->
 
 
         <div class="container-fluid my-container-dark" id="contact-us">
