@@ -37,7 +37,7 @@
             <div class="row justify-content-center my-container-yellow">
                 <div class="col-md-6 col-lg-8 justify-self-center"><img class="img-fluid" src="images/home_back.jpg">
                 </div>
-                <div class="col-md-6 col-lg-4 justify-self-center align-self-center homebox">
+                <div class="col-md-6 col-lg-4 justify-self-center align-self-center homebox p-2 p-sm-3">
                     <h1>Eventors Events & Production</h1>
                     <p>We are an events and production company dedicated to put a smile on your face. We understand the
                         importance of an event in our clients life and we strive to satisfy our clients </p>
@@ -56,7 +56,7 @@
 
         <!--Second Box-->
 
-            <div class="row justify-content-center my-container-yellow" id="our-story">
+            <div class="row justify-content-center align-content-center my-container-yellow" id="our-story">
                 <div class="col-md-6 justify-self-center align-self-center p-5">
                     <h1>Our Story</h1><br>
                     <p>Eventors Events and Production was started in a rented flat by a couple of teenagers in Pune.
@@ -87,7 +87,7 @@
 
 
         <!--Third Box-->
-            <div class="row justify-content-center my-container-yellow">
+            <div class="row justify-content-center align-content-center my-container-yellow">
                 <div class="col-md-6 justify-self-center align-self-center"><img class="img-fluid"
                         src="images/celebration-chairs-party-table-setting-50675.jpg">
                 </div>

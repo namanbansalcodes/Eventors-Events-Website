@@ -16,7 +16,7 @@ $(document).ready(function() {
                 url: 'maileverything.php',
                 data: form,
                 success: function() {
-                    alert(form);
+                    alert("Your response has been recorded.");
                 }
             })
 

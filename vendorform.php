@@ -34,14 +34,95 @@
 
         <!--Form Starts Here-->
         <div class="container-fluid my-container-yellow">
-            <div class="row justify-content-center align-content-center">
-                <div class="col-sm-12 p-5">
-                    <form method="post" id="vform">
-                        <p>Name: <input type="text" name="vname" id="vname">
-                            <br></p>
+            <div class="row">
+                <div class="col-sm-6 p-5 justify-self-start">
+                    <h2>Vendor Form</h2>
+                    <form method="post" id="form" style="display: table;">
 
-                        <p>Email: <input type="text" name="vemail" id="vemail">
-                            <br></p>
+                        <table>
+                            <tr>
+                                <td align="left">
+                                    <p>Name*: </p>
+                                </td>
+                                <td align="left">
+                                    <p><input type="text" id="name"> <br></p>
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td align="left">
+                                    <p>Email*: </p>
+                                </td>
+                                <td align="left">
+                                    <p><input type="text" id="email"> <br></p>
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td align="left">
+                                    <p>Phone*: </p>
+                                </td>
+                                <td align="left">
+                                    <p><input type="text" id="phone"> <br></p>
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td align="left">
+                                    <p>City*: </p>
+                                </td>
+                                <td align="left">
+                                    <p><input type="text" id="city"> <br></p>
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td align="left">
+                                    <p>Insta/Facebook Handle*:</p>
+                                </td>
+                                <td align="left">
+                                    <p><input type="text" id="name"> <br></p>
+                                </td>
+                            </tr>
+
+                        </table>
+
+                        <table>
+                            <tr>
+                                <td align="left">
+                                    <p>What is your story? Tell us about your family, hobbies ANYTHING! </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="left">
+                                    <p> <textarea id="desc1" rows="4" cols="80"></textarea><br></p>
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td align="left">
+                                    <p>A Special Message for us maybe?</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="left">
+                                    <p> <textarea id="desc2" rows="4" cols="80"></textarea><br></p>
+                                </td>
+                            </tr>
+
+                        </table>
+
+
+
+
+
+
+
 
                         <button id="send-btn" type="submit" name="submit">Submit</button>
                     </form>
@@ -61,7 +142,7 @@
                     <h5 style="display: inline;">Phone: </h5>
                     <p style="display: inline;">8007386299</p><br>
 
-                    <a href="#" class="fa fa-facebook media-icons" style="padding-right: 20px;"></a>
+                    <a href="#" class="fa fa-facebook media-icons" style="padding-left: 20px;"></a>
                     <a href="#" class="fa fa-instagram media-icons"></a>
                 </div>
 
