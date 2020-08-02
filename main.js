@@ -14,7 +14,7 @@ $(document).ready(function() {
         } else {
             var form = $('#vform').serialize();
             $.ajax({
-                type: 'post',
+                type: 'POST',
                 url: 'maileverything.php',
                 data: form,
                 success: function() {

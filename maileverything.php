@@ -1,6 +1,7 @@
 <?php
 
 parse_str($_POST['form'],$array);
+print_r($array);
 
 $keys=array_keys($array);
 $size=sizeof($keys);
