@@ -14,7 +14,7 @@ $(document).ready(function() {
             $.ajax({
                 type: 'POST',
                 url: 'maileverything.php',
-                data: form,
+                data: { data: form },
                 success: function() {
                     alert(form);
                 }

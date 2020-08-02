@@ -36,7 +36,7 @@
         <div class="container-fluid my-container-yellow">
             <div class="row justify-content-center align-content-center">
                 <div class="col-sm-12 p-5">
-                    <form action="vendorform.php" method="post" id="vform">
+                    <form method="post" id="vform">
                         <p>Name: <input type="text" name="vname" id="vname">
                             <br></p>
 
