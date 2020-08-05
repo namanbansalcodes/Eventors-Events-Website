@@ -99,6 +99,10 @@
     color: var(--root-yellow);
 }
 
+.the-forms {
+    display: table;
+}
+
 @media (max-width:768px) {
     .homebox {
         left: 0;

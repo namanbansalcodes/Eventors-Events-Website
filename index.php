@@ -241,7 +241,7 @@
                 <div class="col-md-5 contact-us">
                     <h2>WORK WITH US</h2>
 
-                    <a href="vendorform.php">For Vendors</a> <br>
+                    <a href="Vendor/vendorform.php">For Vendors</a> <br>
                     <a href="">For Interships</a> <br>
                     <a href="">For Designers</a> <br>
                     <a href="">For Business Partners</a>

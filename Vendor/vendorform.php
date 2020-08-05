@@ -11,23 +11,23 @@
         <title>Eventors - Vendor Form</title>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="main.js"></script>
+        <script src="../main.js"></script>
 
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="../styles.css">
     </head>
 
     <body class="main-body centered">
 
         <nav class="navbar navbar-expand-md">
-            <a class="navbar-brand"><img class="img-fluid logo" src="images/justlogoyellower.png"></a>
+            <a class="navbar-brand"><img class="img-fluid logo" src="../images/justlogoyellower.png"></a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navmenucontainer">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div id="navmenucontainer" class="collapse navbar-collapse">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="index.php" class="nav-link">Services</a></li>
-                    <li class="nav-item"><a href="index.php" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="../index.php" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="../index.php" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="../index.php" class="nav-link">Contact</a></li>
                 </ul>
             </div>
         </nav>
@@ -37,7 +37,7 @@
             <div class="row">
                 <div class="col-sm-6 p-5 justify-self-start">
                     <h2>Vendor Form</h2>
-                    <form method="post" id="form" style="display: table;">
+                    <form method="post" id="vform" name='vform' style="display: table;">
 
                         <table>
                             <tr>
@@ -45,47 +45,62 @@
                                     <p>Name*: </p>
                                 </td>
                                 <td align="left">
-                                    <p><input type="text" id="name"> <br></p>
+                                    <p style="padding-left: 5px;"><input type="text" id="name"> <br></p>
                                 </td>
                             </tr>
 
 
                             <tr>
                                 <td align="left">
-                                    <p>Email*: </p>
+                                    <p>Email* </p>
                                 </td>
                                 <td align="left">
-                                    <p><input type="text" id="email"> <br></p>
-                                </td>
-                            </tr>
-
-
-                            <tr>
-                                <td align="left">
-                                    <p>Phone*: </p>
-                                </td>
-                                <td align="left">
-                                    <p><input type="text" id="phone"> <br></p>
+                                    <p style="padding-left: 5px;"><input type="text" id="email"> <br></p>
                                 </td>
                             </tr>
 
 
                             <tr>
                                 <td align="left">
-                                    <p>City*: </p>
+                                    <p>Phone* </p>
                                 </td>
                                 <td align="left">
-                                    <p><input type="text" id="city"> <br></p>
+                                    <p style="padding-left: 5px;"><input type="text" id="phone"> <br></p>
                                 </td>
                             </tr>
 
 
                             <tr>
                                 <td align="left">
-                                    <p>Insta/Facebook Handle*:</p>
+                                    <p>City* </p>
                                 </td>
                                 <td align="left">
-                                    <p><input type="text" id="name"> <br></p>
+                                    <p style="padding-left: 5px;"><input type="text" id="city"> <br></p>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td align="left">
+                                    <p>Years of Experience* </p>
+                                </td>
+                                <td align="left">
+                                    <p style="padding-left: 5px;"><select id="exp">
+                                            <option value="Select">Select</option>
+                                            <option value="1 year">1 year</option>
+                                            <option value="2 years">2 years</option>
+                                            <option value="More than 2 years">More than 2 years</option>
+                                            <option value="More than 5 years">More than 5 years</option>
+                                        </select> <br></p>
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td align="left">
+                                    <p>Insta/Facebook Handle* </p>
+                                </td>
+                                <td align="left">
+                                    <p style="padding-left: 5px;"><input type="text" id="social"> <br></p>
                                 </td>
                             </tr>
 
@@ -124,7 +139,7 @@
 
 
 
-                        <button id="send-btn" type="submit" name="submit">Submit</button>
+                        <button id="vform-send-btn" type="submit" name="submit">Submit</button>
                     </form>
                 </div>
             </div>
