@@ -38,6 +38,7 @@ $(document).ready(function() {
                 success: function() {
                     alert('Your response has been recorded');
                 }
+
             })
 
         }

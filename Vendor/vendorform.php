@@ -36,13 +36,13 @@
         <div class="container-fluid my-container-yellow">
             <div class="row">
                 <div class="col-sm-6 p-5 justify-self-start">
-                    <h2>Vendor Form</h2>
+                    <h2>Vendor Form</h2><br>
                     <form method="post" id="vform" name='vform' style="display: table;">
 
                         <table>
                             <tr>
                                 <td align="left">
-                                    <p>Name*: </p>
+                                    <p>Name* </p>
                                 </td>
                                 <td align="left">
                                     <p style="padding-left: 5px;"><input type="text" id="name"> <br></p>
