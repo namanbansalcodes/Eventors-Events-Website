@@ -12,7 +12,6 @@ $mailthis=$mailthis.'A Special Message for us maybe?'.PHP_EOL.$_POST['desc2'].PH
 $mailto='namanb009@gmail.com';
 $mailsubject='Vendor Application: '.$_POST['name'];
 
-echo $mailthis;
-//mail($mailto,$mailsubject,$mailthis);
+mail($mailto,$mailsubject,$mailthis);
 
 ?>

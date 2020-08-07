@@ -243,7 +243,7 @@
 
                     <a href="Vendor/vendorform.php">For Vendors</a> <br>
                     <a href="">For Interships</a> <br>
-                    <a href="">For Designers</a> <br>
+                    <a href="Designer/designerforms.php">For Designers</a> <br>
                     <a href="">For Business Partners</a>
                 </div>
             </div>
