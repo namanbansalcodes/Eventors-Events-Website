@@ -4,7 +4,9 @@
     <head>
         <!-- Required meta tags -->
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="viewport"
+            content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=320, height=device-height, target-densitydpi=medium-dpi" />
+
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
             integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
@@ -41,7 +43,7 @@
             <div class="row my-container-yellow" >
                 <div class="col-sm-6 p-5 justify-self-start">
                     <h2>Designer Form</h2><br>
-                    <form method="post" id="dform" name='vform' style="display: table;">
+                    <form method="post" id="dform" name='vform' class="table-responsive"">
 
                         <table>
                             <tr>

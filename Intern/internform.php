@@ -4,7 +4,9 @@
     <head>
         <!-- Required meta tags -->
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="viewport"
+            content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=320, height=device-height, target-densitydpi=medium-dpi" />
+
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
             integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
@@ -18,7 +20,7 @@
 
     <body>
 
-    <div class="row my-container-dark">
+        <div class="row my-container-dark">
             <div class="col-12">
 
                 <nav class="navbar navbar-expand-md my-navbar">
@@ -38,66 +40,66 @@
         </div>
 
         <!--Form Starts Here-->
-            <div class="row my-container-yellow" style="overflow:hidden">
-                <div class="col-sm-6 p-5 justify-self-start">
-                    <h2>Internship Form</h2><br>
-                    <form method="post" id="dform" name='vform' style="display: table;">
+        <div class="row my-container-yellow" style="overflow:hidden">
+            <div class="col-sm-6 p-5 justify-self-start">
+                <h2>Internship Form</h2><br>
+                <form method="post" id="dform" name='vform' class="table-responsive"">
 
-                        <table>
-                            <tr>
-                                <td align="left">
-                                    <p>Name* </p>
-                                </td>
-                                <td align="left">
-                                    <p style="padding-left: 5px;"><input type="text" id="name"> <br></p>
-                                </td>
-                            </tr>
-
-
-                            <tr>
-                                <td align="left">
-                                    <p>Email* </p>
-                                </td>
-                                <td align="left">
-                                    <p style="padding-left: 5px;"><input type="text" id="email"> <br></p>
-                                </td>
-                            </tr>
+                    <table>
+                        <tr>
+                            <td align="left">
+                                <p>Name* </p>
+                            </td>
+                            <td align="left">
+                                <p style="padding-left: 5px;"><input type="text" id="name"> <br></p>
+                            </td>
+                        </tr>
 
 
-                            <tr>
-                                <td align="left">
-                                    <p>Phone* </p>
-                                </td>
-                                <td align="left">
-                                    <p style="padding-left: 5px;"><input type="text" id="phone"> <br></p>
-                                </td>
-                            </tr>
-
-                        </table>
-
-                        <table>
-                
+                        <tr>
+                            <td align="left">
+                                <p>Email* </p>
+                            </td>
+                            <td align="left">
+                                <p style="padding-left: 5px;"><input type="text" id="email"> <br></p>
+                            </td>
+                        </tr>
 
 
-                            <tr>
-                                <td align="left">
-                                    <p>A Special Message for us maybe?</p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td align="left">
-                                    <p> <textarea id="desc3"></textarea><br></p>
-                                </td>
-                            </tr>
+                        <tr>
+                            <td align="left">
+                                <p>Phone* </p>
+                            </td>
+                            <td align="left">
+                                <p style="padding-left: 5px;"><input type="text" id="phone"> <br></p>
+                            </td>
+                        </tr>
+
+                    </table>
+
+                    <table>
 
 
-                        </table>
+
+                        <tr>
+                            <td align="left">
+                                <p>A Special Message for us maybe?</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="left">
+                                <p> <textarea id="desc3"></textarea><br></p>
+                            </td>
+                        </tr>
 
 
-                        <button id="iform-send-btn" type="submit" name="submit">Submit</button>
-                    </form>
-                </div>
+                    </table>
+
+
+                    <button id="iform-send-btn" type="submit" name="submit">Submit</button>
+                </form>
             </div>
+        </div>
 
         <!--Form ends here-->
 
