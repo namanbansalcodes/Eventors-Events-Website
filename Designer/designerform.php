@@ -16,25 +16,29 @@
         <link rel="stylesheet" href="../styles.css">
     </head>
 
-    <body class="main-body centered">
+    <body>
 
-        <nav class="navbar navbar-expand-md">
-            <a class="navbar-brand"><img class="img-fluid logo" src="../images/justlogoyellower.png"></a>
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#navmenucontainer">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div id="navmenucontainer" class="collapse navbar-collapse">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item"><a href="../index.php" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="../index.php" class="nav-link">Services</a></li>
-                    <li class="nav-item"><a href="../index.php" class="nav-link">Contact</a></li>
-                </ul>
+    <div class="row my-container-dark">
+            <div class="col-12">
+
+                <nav class="navbar navbar-expand-md my-navbar">
+                    <a class="navbar-brand"><img class="m-2 img-fluid logo" src="../images/justlogoyellower.png"></a>
+                    <button class="navbar-toggler" data-toggle="collapse" data-target="#navmenucontainer">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div id="navmenucontainer" class="collapse navbar-collapse">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item"><a href="#our-story" class="nav-link">Story</a></li>
+                            <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                            <li class="nav-item"><a href="#contact-us" class="nav-link">Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
             </div>
-        </nav>
+        </div>
 
         <!--Form Starts Here-->
-        <div class="container-fluid my-container-yellow">
-            <div class="row">
+            <div class="row my-container-yellow" >
                 <div class="col-sm-6 p-5 justify-self-start">
                     <h2>Designer Form</h2><br>
                     <form method="post" id="dform" name='vform' style="display: table;">
@@ -151,6 +155,17 @@
                                 </td>
                             </tr>
 
+                            <tr>
+                                <td>
+                                    <p>Your Resume</p>
+                                </td>
+                                <td>
+                                    <p><input type="file" id="designerfile" accept=".pdf,.docs,.docx">
+                                    </p>
+                                </td>
+                            </tr>
+
+
                         </table>
 
                         <table>
@@ -164,8 +179,8 @@
                                     <p> <textarea id="desc1" rows="4" cols="80"></textarea><br></p>
                                 </td>
                             </tr>
-                            
-                            
+
+
                             <tr>
                                 <td align="left">
                                     <p>Why do you want to join us?</p>
@@ -190,6 +205,7 @@
                                 </td>
                             </tr>
 
+
                         </table>
 
 
@@ -197,7 +213,7 @@
                     </form>
                 </div>
             </div>
-        </div>
+
         <!--Form ends here-->
 
 

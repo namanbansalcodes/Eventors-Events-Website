@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
             integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-        <title>Eventors - Vendor Form</title>
+        <title>Eventors - Designer Form</title>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="../main.js"></script>
@@ -36,11 +36,12 @@
                 </nav>
             </div>
         </div>
+
         <!--Form Starts Here-->
-            <div class="row my-container-yellow">
+            <div class="row my-container-yellow" style="overflow:hidden">
                 <div class="col-sm-6 p-5 justify-self-start">
-                    <h2>Vendor Form</h2><br>
-                    <form method="post" id="vform" name='vform' style="display: table;">
+                    <h2>Internship Form</h2><br>
+                    <form method="post" id="dform" name='vform' style="display: table;">
 
                         <table>
                             <tr>
@@ -72,54 +73,10 @@
                                 </td>
                             </tr>
 
-
-                            <tr>
-                                <td align="left">
-                                    <p>City* </p>
-                                </td>
-                                <td align="left">
-                                    <p style="padding-left: 5px;"><input type="text" id="city"> <br></p>
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td align="left">
-                                    <p>Years of Experience* </p>
-                                </td>
-                                <td align="left">
-                                    <p style="padding-left: 5px;"><select id="exp">
-                                            <option value="Select">Select</option>
-                                            <option value="1 year">1 year</option>
-                                            <option value="2 years">2 years</option>
-                                            <option value="More than 2 years">More than 2 years</option>
-                                            <option value="More than 5 years">More than 5 years</option>
-                                        </select> <br></p>
-                                </td>
-                            </tr>
-
-
-                            <tr>
-                                <td align="left">
-                                    <p>Insta/Facebook Handle* </p>
-                                </td>
-                                <td align="left">
-                                    <p style="padding-left: 5px;"><input type="text" id="social"> <br></p>
-                                </td>
-                            </tr>
-
                         </table>
 
                         <table>
-                            <tr>
-                                <td align="left">
-                                    <p>What is your story? Tell us about your family, hobbies ANYTHING! </p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td align="left">
-                                    <p> <textarea id="desc1" rows="4" cols="80"></textarea><br></p>
-                                </td>
-                            </tr>
+                
 
 
                             <tr>
@@ -129,20 +86,15 @@
                             </tr>
                             <tr>
                                 <td align="left">
-                                    <p> <textarea id="desc2" rows="4" cols="80"></textarea><br></p>
+                                    <p> <textarea id="desc3"></textarea><br></p>
                                 </td>
                             </tr>
+
 
                         </table>
 
 
-
-
-
-
-
-
-                        <button id="dform-send-btn" type="submit" name="submit">Submit</button>
+                        <button id="iform-send-btn" type="submit" name="submit">Submit</button>
                     </form>
                 </div>
             </div>
@@ -167,8 +119,8 @@
                 <div class="col-md-5 contact-us">
                     <h2>WORK WITH US</h2>
 
-                    <a href="vendorform.php">For Vendors</a> <br>
-                    <a href="">For Interships</a> <br>
+                    <a href="../Vendor/vendorform.php">For Vendors</a> <br>
+                    <a href="interform.php">For Interships</a> <br>
                     <a href="../Designer/designerform.php">For Designers</a> <br>
                     <a href="">For Business Partners</a>
                 </div>

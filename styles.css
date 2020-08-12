@@ -5,14 +5,11 @@
     --root-yellow: #ffdc73;
 }
 
-.main-body {
+.my-navbar {
     background-color: var(--root-black);
-    align-items: center;
-    align-content: center;
 }
 
 .logo {
-    width: 100%;
     max-width: 12vw;
 }
 
@@ -29,13 +26,9 @@
     background-color: var(--root-black);
 }
 
-.my-col-dark {
-    background-color: red;
-}
-
 .homebox {
     background-color: var(--root-yellow-lite);
-    left: -50px;
+    left: -100px;
     z-index: 1;
 }
 
@@ -105,12 +98,14 @@
 
 @media (max-width:768px) {
     .homebox {
-        left: 0;
+        left: 50px;
+        text-align: center;
     }
 }
 
 @media(max-width:576px) {
     .homebox {
-        left: 0;
+        padding: 5px;
+        text-align: center;
     }
 }
